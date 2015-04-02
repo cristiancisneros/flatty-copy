@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flatty</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+  
+<body>
+
+  <div id='wrapper'>
+  <div id='main-nav-bg'></div>
+  
+  <%= render 'layouts/menu' %>
+  <%= render 'layouts/header' %>
+  <%= yield %>
+
+  <%= render 'layouts/footer' %>
+  </div>
+  </section>
+  </div>
+</body>
+</html>

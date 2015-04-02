@@ -1,0 +1,26 @@
+                                development:
+                                 adapter: postgresql
+                                 encoding: unicode
+                                 database: shop_dev
+                                 pool: 5
+                                 host: localhost
+                                 username: 
+                                 password:
+
+                               test:
+                                 adapter: postgresql
+                                 encoding: unicode
+                                 database: shop_test
+                                 pool: 5
+                                 host: localhost
+                                 username: 
+                                 password:
+
+                               production:
+                                 adapter: postgresql
+                                 encoding: unicode
+                                 database: shop_prod
+                                 pool: 5
+                                 host: localhost
+                                 username: 
+                                 password:   
