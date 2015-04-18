@@ -39,3 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'high_voltage', '~> 2.2.1'
+gem 'activeadmin', '~> 1.0.0.pre1'
+gem 'metamagic'
+
